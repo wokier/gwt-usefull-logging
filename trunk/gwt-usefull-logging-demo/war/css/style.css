@@ -1,0 +1,15 @@
+h1 {
+  color: #777777;
+  text-align: center;
+}
+#container {
+	margin-left: 320px;
+}
+#footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;	
+}
+.error {
+	color: red;
+}
