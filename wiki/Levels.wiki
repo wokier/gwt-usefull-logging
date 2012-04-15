@@ -1,0 +1,9 @@
+#summary Log levels matching
+
+= Log APIs =
+ * gwt-usefull-logging: this project
+ * java util logging (jul): java & GWT base logging API
+ * slf4j: log bridge between APIs, used for gwt-usefull-logging remote logging
+ * log4j: most used log framework
+
+= Matching =
