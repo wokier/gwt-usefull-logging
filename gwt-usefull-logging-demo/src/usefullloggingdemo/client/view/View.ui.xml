@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder" xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<g:HTMLPanel>
+
+		<g:Button ui:field="finestButton" text="FINEST" />
+		<g:Button ui:field="finerButton" text="FINER (DEBUG)" />
+		<g:Button ui:field="fineButton" text="FINE" />
+		<g:Button ui:field="configButton" text="CONFIG" />
+		<g:Button ui:field="infoButton" text="INFO" />
+		<g:Button ui:field="warningButton" text="WARNING (WARN)" />
+		<g:Button ui:field="severeButton" text="SEVERE (ERROR)" />
+		<br />
+		<g:Button ui:field="infoMessageButton" text='info("Using a pattern is {}","cool")' />
+		<g:Button ui:field="debugNullButton" text="debug(null)" />
+	</g:HTMLPanel>
+</ui:UiBinder> 

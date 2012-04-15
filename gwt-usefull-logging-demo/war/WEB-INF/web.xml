@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+	<servlet>
+		<servlet-name>remoteLogging</servlet-name>
+		<!-- Default Remote logging Servlet using java.util.logging -->
+<!-- 		<servlet-class>com.google.gwt.logging.server.RemoteLoggingServiceImpl</servlet-class> -->
+		<!-- Custom Remote logging Servlet using slf4j -->
+		<servlet-class>usefulllogging.server.UsefullRemoteLoggingServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>remoteLogging</servlet-name>
+		<url-pattern>/demo/remote_logging</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+
+</web-app>
