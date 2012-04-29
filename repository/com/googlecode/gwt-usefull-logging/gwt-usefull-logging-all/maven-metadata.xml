@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.googlecode.gwt-usefull-logging</groupId>
+  <artifactId>gwt-usefull-logging-all</artifactId>
+  <versioning>
+    <versions>
+      <version>0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20120429133406</lastUpdated>
+  </versioning>
+</metadata>
