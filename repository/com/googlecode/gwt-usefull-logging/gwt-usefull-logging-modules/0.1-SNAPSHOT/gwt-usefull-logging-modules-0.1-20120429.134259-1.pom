@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.googlecode.gwt-usefull-logging</groupId>
+		<artifactId>gwt-usefull-logging-parent</artifactId>
+		<version>0.1-SNAPSHOT</version>
+		<relativePath>../gwt-usefull-logging-parent</relativePath>
+	</parent>
+
+	<artifactId>gwt-usefull-logging-modules</artifactId>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>../gwt-usefull-logging-parent</module>
+
+		<module>../gwt-usefull-logging-client</module>
+		<module>../gwt-usefull-logging-server</module>
+		<module>../gwt-usefull-logging-shared</module>
+
+		<module>../gwt-usefull-logging-all</module>
+
+		<module>../gwt-usefull-logging-demo</module>
+	</modules>
+
+</project>
