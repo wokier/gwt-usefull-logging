@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.googlecode.gwt-usefull-logging</groupId>
+		<artifactId>gwt-usefull-logging-parent</artifactId>
+		<version>0.1-SNAPSHOT</version>
+		<relativePath>../gwt-usefull-logging-parent</relativePath>
+	</parent>
+
+	<artifactId>gwt-usefull-logging-shared</artifactId>
+
+	<build>
+
+		<!-- Package with sources -->
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.java</include>
+				</includes>
+			</resource>
+
+			<resource>
+				<directory>src/main/resources</directory>
+				<includes>
+					<include>**/*.*</include>
+				</includes>
+			</resource>
+		</resources>
+
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava-gwt</artifactId>
+			<version>11.0.2</version>
+		</dependency>
+	</dependencies>
+</project>
