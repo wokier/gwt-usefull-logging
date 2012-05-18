@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.googlecode.gwt-usefull-logging</groupId>
 		<artifactId>gwt-usefull-logging-parent</artifactId>
-		<version>0.1-SNAPSHOT</version>
+		<version>0.1</version>
 		<relativePath>../gwt-usefull-logging-parent</relativePath>
 	</parent>
 	<artifactId>gwt-usefull-logging-server</artifactId>

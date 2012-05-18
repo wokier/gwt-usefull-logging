@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.googlecode.gwt-usefull-logging</groupId>
 	<artifactId>gwt-usefull-logging-parent</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<packaging>pom</packaging>
 
 	<url>http://code.google.com/p/gwt-usefull-logging</url>
@@ -17,10 +17,10 @@
 	<scm>
 		<!-- http://maven.apache.org/scm/subversion.html -->
 		<connection>
-			scm:svn:http://gwt-mvc.googlecode.com/svn/trunk/gwt-usefull-logging
+			scm:svn:http://gwt-usefull-logging.googlecode.com/svn/trunk/${project.artifactId}
 		</connection>
 		<developerConnection>
-			scm:svn:https://${username}:${password}@gwt-usefull-logging.googlecode.com/svn/trunk/gwt-usefull-logging
+			scm:svn:https://${username}:${password}@gwt-usefull-logging.googlecode.com/svn/trunk/${project.artifactId}
 		</developerConnection>
 		<url>http://code.google.com/p/gwt-usefull-logging/source/browse/</url>
 	</scm>
@@ -37,7 +37,6 @@
 			</url>
 		</site>
 	</distributionManagement>
-
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
