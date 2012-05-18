@@ -13,7 +13,7 @@
 || finest || finest || debug || debug ||
 || finer || finer || debug || debug ||
 || debug || finer || debug || debug ||
-|| entering || finer || debug || debug ||
+|| entering || entering || debug || debug ||
 || fine || fine || debug || debug ||
 || info || info || info || info ||
 || config || config || info || info ||
@@ -21,6 +21,8 @@
 || error || severe || error || error||
 || severe || severe || error || error ||
 
-Should i use the slf4j trace level ?
+Should i use the slf4j trace level ? at wich level, finest ou finer?
+
 [http://www.slf4j.org/faq.html#trace slf4j FAQ about trace]
+
 [http://www.slf4j.org/migrator.html slf4j migration tool and guide]
