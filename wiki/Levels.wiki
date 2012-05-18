@@ -1,4 +1,5 @@
 #summary Log levels matching
+#labels Featured,Phase-Design
 
 = Log APIs =
  * gwt-usefull-logging: this project
@@ -7,3 +8,15 @@
  * log4j: most used log framework
 
 = Matching =
+
+|| *gwt-usefull-logging* || *jul* || *slf4j* || *log4j* ||
+|| finest || finest || debug || debug ||
+|| finer || finer || debug || debug ||
+|| debug || finer || debug || debug ||
+|| entering || finer || debug || debug ||
+|| fine || fine || debug || debug ||
+|| info || info || info || info ||
+|| config || config || info || info ||
+|| warning || warning || warn || warn ||
+|| error || severe || error || error||
+|| severe || severe || error || error ||
