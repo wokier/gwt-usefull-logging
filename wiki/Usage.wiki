@@ -1,0 +1,8 @@
+#summary How-to use this usefull module
+#labels Featured,Phase-Deploy
+
+  * Have a look at the [http://gwt-usefull-logging-demo.appspot.com/ Demo]
+  * Add a dependency to [http://code.google.com/p/gwt-usefull-logging/source/browse/trunk/gwt-usefull-logging-all/pom.xml gwt-usefull-logging-all]
+  * Add the 'usefulllogging.UsefullLogging' module inherits to your '.gwt.xml' module file
+  * Join the [http://groups.google.com/group/gwt-usefull-logging group] to ask your questions
+  * Enjoy
