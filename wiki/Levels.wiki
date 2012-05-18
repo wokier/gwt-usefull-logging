@@ -20,3 +20,7 @@
 || warning || warning || warn || warn ||
 || error || severe || error || error||
 || severe || severe || error || error ||
+
+Should i use the slf4j trace level ?
+[http://www.slf4j.org/faq.html#trace slf4j FAQ about trace]
+[http://www.slf4j.org/migrator.html slf4j migration tool and guide]
