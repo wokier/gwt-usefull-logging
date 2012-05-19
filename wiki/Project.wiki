@@ -1,0 +1,23 @@
+#summary Project Genesis
+#labels Featured,Phase-Design
+
+= Short story =
+GWT Usefull Logging
+
+ * Adds some shortcut methods like debug, error
+ * Allows to format messages with pattern on client and server side
+ * Provides a remote logging servlet using slf4j, allowing you to choose your server-side logging framework
+
+
+= Long story =
+
+[http://code.google.com/p/gwt-log/ gwt-log] was the first library to offer effectve client logging, thanks to the great job of Allan Sauer.
+Allan join the gwt team and an unified client/server logging born, [https://developers.google.com/web-toolkit/doc/latest/DevGuideLogging GWT Logging], based on the JDK's java util logging API, using all the key concepts of gwt-log.
+
+but...
+
+The jul API is just horrible to use. You log on a given levelby passing an argument instead of just calling the right method. It exists some shortcut methods like info, but not all of them!
+
+At the same time, [http://www.slf4j.org/ slf4j] offers an unified api, with a message construction by pattern, a simple idea but a very good compromise between performance and developer comfort. And the other point of slf4j is that you can choose your runtime implementation.
+
+So gwt-usefull-logging just took the best from all of them to offer a very usefull API.
