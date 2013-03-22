@@ -21,6 +21,7 @@ public class LogMessageFormatTest {
 	assertEquals("null are displayed as null", LogMessageFormat.format("null are displayed as {}", new Object[] { null }));
 	assertEquals("too many arguments[are added at the end]", LogMessageFormat.format("{} {} {}", "too", "many", "arguments", "are added at the end"));
 	assertEquals("not enought arguments remains {}", LogMessageFormat.format("{} arguments remains {}", "not enought"));
+	assertEquals("usefullloggingdemo.client.EntryPoint$1@4a3e8ac4 doModuleLoad ...", LogMessageFormat.format("{} {} ...", "usefullloggingdemo.client.EntryPoint$1@4a3e8ac4", "doModuleLoad"));
     }
 
     @Test
