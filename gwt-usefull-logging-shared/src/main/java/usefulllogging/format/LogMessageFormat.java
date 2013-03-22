@@ -37,7 +37,7 @@ public class LogMessageFormat {
 	    }
 	} while (found);
 	while (formatted.contains("{}") && i < arguments.length) {
-	    formatted = formatted.replaceFirst("\\{\\}", String.valueOf(arguments[i]));
+	    formatted = formatted.replaceFirst("\\{\\}", String.valueOf(arguments[i]).replace("$", "\\$"));
 	    i++;
 	}
 	if (i < arguments.length) {

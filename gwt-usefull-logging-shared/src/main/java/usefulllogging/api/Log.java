@@ -33,7 +33,7 @@ public class Log {
      * @param params
      */
     public void entering(Object source, String sourceMethod) {
-	finer("{} {} ENTRY", source.getClass().getName(), sourceMethod);
+	finer("{} {}() ...", source.getClass().getName(), sourceMethod);
     }
 
     /**
@@ -43,10 +43,11 @@ public class Log {
      * @param params
      */
     public void entering(Object source, String sourceMethod, Object... params) {
-	String pattern = "{} {} ENTRY";
+	String pattern = "{} {} (";
 	for (int i = 0; i < params.length; i++) {
 	    pattern = pattern + " {" + i + "}";
 	}
+	pattern = pattern + ") ...";
 	finer(pattern, source.getClass().getName(), sourceMethod, params);
     }
 
