@@ -3,19 +3,18 @@
 	<parent>
 		<groupId>com.googlecode.gwt-usefull-logging</groupId>
 		<artifactId>gwt-usefull-logging-parent</artifactId>
-		<version>0.2</version>
+		<version>0.3</version>
 		<relativePath>../gwt-usefull-logging-parent</relativePath>
 	</parent>
 	<artifactId>gwt-usefull-logging-demo</artifactId>
 	<packaging>war</packaging>
-	<version>2</version>
+	<version>3</version>
 
 	<properties>
 		<gwtVersion>2.5.0</gwtVersion>
 		<appengineVersion>1.7.5</appengineVersion>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
 
 
 	<build>
@@ -77,6 +76,13 @@
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-user</artifactId>
 			<version>${gwtVersion}</version>
+			<classifier>sources</classifier>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-user</artifactId>
+			<version>${gwtVersion}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -88,15 +94,21 @@
 
 
 		<dependency>
+			<groupId>com.google.gwt</groupId>
+			<artifactId>gwt-dev</artifactId>
+			<version>${gwtVersion}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
 			<groupId>com.googlecode.gwt-usefull-logging</groupId>
-			<artifactId>gwt-usefull-logging-all</artifactId>
-			<version>0.2</version>
-			<type>pom</type>
+			<artifactId>gwt-usefull-logging-server</artifactId>
+			<version>0.3</version>
 		</dependency>
 		<dependency>
 			<groupId>com.googlecode.gwt-usefull-logging</groupId>
 			<artifactId>gwt-usefull-logging-client</artifactId>
-			<version>0.2</version>
+			<version>0.3</version>
 			<scope>provided</scope>
 		</dependency>
 
@@ -107,10 +119,17 @@
 			<version>1.0.0.GA</version>
 		</dependency>
 
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.slf4j</groupId> -->
+<!-- 			<artifactId>slf4j-simple</artifactId> -->
+<!-- 			<version>1.7.4</version> -->
+<!-- 		</dependency> -->
+
 		<dependency>
 			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.4</version>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>1.6.4</version>
 		</dependency>
+
 	</dependencies>
 </project>

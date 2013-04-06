@@ -227,6 +227,7 @@ public class Log {
     public void severe(String pattern, Throwable error, Object... arguments) {
 	if (logger.isLoggable(Level.SEVERE)) {
 	    LogRecord logRecord = new LogRecord(Level.SEVERE, LogMessageFormat.format(pattern, arguments));
+	    logRecord.setLoggerName(logger.getName());
 	    logRecord.setThrown(error);
 	    logger.log(logRecord);
 	}
