@@ -34,7 +34,7 @@
 		<site>
 			<id>gwt-usefull-logging-site</id>
 			<url>
-				svn:https://gwt-usefull-logging.googlecode.com/svn/site/${version}
+				svn:https://gwt-usefull-logging.googlecode.com/svn/site/${project.version}
 			</url>
 		</site>
 	</distributionManagement>
@@ -63,6 +63,25 @@
 					<target>1.6</target>
 					<compilerVersion>1.6</compilerVersion>
 					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<additionalClasspathElements>
+						<additionalClasspathElement>${project.build.sourceDirectory}</additionalClasspathElement>
+						<additionalClasspathElement>${project.build.testSourceDirectory}</additionalClasspathElement>
+					</additionalClasspathElements>
+					<useManifestOnlyJar>false</useManifestOnlyJar>
+					<forkMode>always</forkMode>
+					<systemProperties>
+						<property>
+							<name>gwt.args</name>
+							<value>-out ${webAppDirectory}</value>
+						</property>
+					</systemProperties>
 				</configuration>
 			</plugin>
 
