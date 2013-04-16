@@ -214,6 +214,7 @@ public class Log {
 	if (logger.isLoggable(Level.SEVERE)) {
 	    LogRecord logRecord = new LogRecord(Level.SEVERE, String.valueOf(message));
 	    logRecord.setThrown(error);
+	    logRecord.setLoggerName(logger.getName());
 	    logger.log(logRecord);
 	}
     }
