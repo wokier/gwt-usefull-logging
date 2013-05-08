@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.googlecode.gwt-usefull-logging</groupId>
 		<artifactId>gwt-usefull-logging-parent</artifactId>
-		<version>0.3</version>
+		<version>0.4</version>
 		<relativePath>../gwt-usefull-logging-parent</relativePath>
 	</parent>
 	<artifactId>gwt-usefull-logging-server</artifactId>
@@ -22,7 +22,7 @@
 		<dependency>
 			<groupId>com.googlecode.gwt-usefull-logging</groupId>
 			<artifactId>gwt-usefull-logging-shared</artifactId>
-			<version>0.3</version>
+			<version>0.4</version>
 		</dependency>
 	</dependencies>
 </project>
