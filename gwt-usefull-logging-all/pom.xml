@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.googlecode.gwt-usefull-logging</groupId>
 		<artifactId>gwt-usefull-logging-parent</artifactId>
-		<version>0.3</version>
+		<version>0.4</version>
 		<relativePath>../gwt-usefull-logging-parent</relativePath>
 	</parent>
 
@@ -14,18 +14,18 @@
 		<dependency>
 			<groupId>com.googlecode.gwt-usefull-logging</groupId>
 			<artifactId>gwt-usefull-logging-client</artifactId>
-			<version>0.3</version>
-			<scope>provided</scope><!-- GWT compile -->
+			<version>0.4</version>
+<!-- 			<scope>provided</scope>GWT compile -->
 		</dependency>
 		<dependency>
 			<groupId>com.googlecode.gwt-usefull-logging</groupId>
 			<artifactId>gwt-usefull-logging-server</artifactId>
-			<version>0.3</version>
+			<version>0.4</version>
 		</dependency>
 		<dependency>
 			<groupId>com.googlecode.gwt-usefull-logging</groupId>
 			<artifactId>gwt-usefull-logging-shared</artifactId>
-			<version>0.3</version>
+			<version>0.4</version>
 		</dependency>
 	</dependencies>
 </project>
