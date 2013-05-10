@@ -30,18 +30,18 @@
 		<url>http://code.google.com/p/gwt-usefull-logging/source/browse/</url>
 	</scm>
 
-	<distributionManagement>
-		<repository>
-			<id>gwt-usefull-logging-repository</id>
-			<url>svn:https://gwt-usefull-logging.googlecode.com/svn/repository</url>
-		</repository>
-		<site>
-			<id>gwt-usefull-logging-site</id>
-			<url>
-				svn:https://gwt-usefull-logging.googlecode.com/svn/site/${project.version}
-			</url>
-		</site>
-	</distributionManagement>
+<!-- 	<distributionManagement> -->
+<!-- 		<repository> -->
+<!-- 			<id>gwt-usefull-logging-repository</id> -->
+<!-- 			<url>svn:https://gwt-usefull-logging.googlecode.com/svn/repository</url> -->
+<!-- 		</repository> -->
+<!-- 		<site> -->
+<!-- 			<id>gwt-usefull-logging-site</id> -->
+<!-- 			<url> -->
+<!-- 				svn:https://gwt-usefull-logging.googlecode.com/svn/site/${project.version} -->
+<!-- 			</url> -->
+<!-- 		</site> -->
+<!-- 	</distributionManagement> -->
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
