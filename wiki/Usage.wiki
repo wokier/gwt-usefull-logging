@@ -2,7 +2,6 @@
 #labels Featured,Phase-Deploy
 
   * Have a look at the [http://gwt-usefull-logging-demo.appspot.com/ Demo]
-  * Add the repository http://gwt-usefull-logging.googlecode.com/svn/repository/ or http://repository-wokier.forge.cloudbees.com/release/
   * Add a dependency to gwt-usefull-logging-server
   * Add a dependency to gwt-usefull-logging-client (can be provided dependency as it is only used for gwt compilation)
   * Add the 'usefulllogging.UsefullLogging' module to your '.gwt.xml' module file
