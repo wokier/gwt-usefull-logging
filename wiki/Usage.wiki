@@ -5,7 +5,7 @@
   * Add a dependency to gwt-usefull-logging-server
   * Add a dependency to gwt-usefull-logging-client (can be provided dependency as it is only used for gwt compilation)
   * Add the 'usefulllogging.UsefullLogging' module to your '.gwt.xml' module file
-  * Add the 'com.google.gwt.logging.Logging' module to your '.gwt.xml' module file and configure it following the official documentation https://developers.google.com/web-toolkit/doc/latest/DevGuideLogging
+  * Add the 'com.google.gwt.logging.Logging' module to your '.gwt.xml' module file and configure it following the official documentation https://developers.google.com/web-toolkit/doc/latest/DevGuideLogging or as in http://code.google.com/p/gwt-usefull-logging/source/browse/trunk/gwt-usefull-logging-demo/src/usefullloggingdemo/UsefullLoggingDemo.gwt.xml
   * Declare the alternative logging servlet as in http://code.google.com/p/gwt-usefull-logging/source/browse/trunk/gwt-usefull-logging-demo/war/WEB-INF/web.xml  
   * Join the [http://groups.google.com/group/gwt-usefull-logging group] to ask your questions
   * Enjoy
