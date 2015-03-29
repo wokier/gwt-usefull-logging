@@ -1,0 +1,4 @@
+| 0.3 | 17/04/2013 | Fix remote error log jul NullPointerException + compile JUnit dependency |
+|:----|:-----------|:-------------------------------------------------------------------------|
+| 0.2 | 22/03/2013 | Fix Inner classes entry log |
+| 0.1 | 18/05/2013 | First Version |

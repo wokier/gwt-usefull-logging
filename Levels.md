@@ -1,0 +1,26 @@
+# Log APIs #
+  * gwt-usefull-logging: this project
+  * java util logging (jul): java & GWT base logging API
+  * slf4j: log bridge between APIs, used for gwt-usefull-logging remote logging
+  * log4j: most used log framework
+
+# Matching #
+
+| **gwt-usefull-logging** | **jul** | **slf4j** | **log4j** |
+|:------------------------|:--------|:----------|:----------|
+| finest | finest | debug | debug |
+| finer | finer | debug | debug |
+| debug | finer | debug | debug |
+| entering | entering | debug | debug |
+| fine | fine | debug | debug |
+| info | info | info | info |
+| config | config | info | info |
+| warning | warning | warn | warn |
+| error | severe | error | error|
+| severe | severe | error | error |
+
+Should i use the slf4j trace level ? at wich level, finest ou finer?
+
+[slf4j FAQ about trace](http://www.slf4j.org/faq.html#trace)
+
+[slf4j migration tool and guide](http://www.slf4j.org/migrator.html)
